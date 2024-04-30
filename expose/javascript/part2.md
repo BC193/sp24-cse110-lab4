@@ -14,4 +14,4 @@
 14. a) true b) false c) true d) false e) false f) true
 15. Both are comparisos but === looks at the two without any type conversions while == changes the types.
 17. [2,4,6] will be returned. We are given the array [1,2,3] and the for loop will eventually iterate through this entire array. callback refers to the function doSomething, which multiplies the input by 2. The for-loop uses this function and pushes the result onto newArr. 1 will be multiplied and pushed, same with 2 and 3 giving us our output array, newArr.
-19. 
+19. 1 4 3 2 is the order that the numbers will be logged out. 
