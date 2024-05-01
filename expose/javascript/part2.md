@@ -1,4 +1,4 @@
-1. It will print out 2. The for loop will run 3 times but since we start at 0 it will only increment to 2. The console log variable will print it out since var was declared.
+1. It will print out 3. The for loop will run 3 times but since we start at 0 it will increment to 3 because although the loop ended at 2 it still incremented. The console log variable will print it out since var was declared.
 2. 150 will be printed out on the console because the var, discountedPrice, will store and print out its last saved value. In this case 300 * .5 or 150.
 3. 150 will still be printed out. Like discountedPrice we will store the value of finalPrice after its last for-loop iteration and after its calculations, it will remain the same.
 4. [50,100,150] returning discounted will return the array that is storing all the calculated prices.
@@ -12,6 +12,6 @@
 12. a) student.name; b) student['Grad Year']; c) student.greeting(); d) student['Favorite Teacher'].name; e) student.courseLoad[0];
 13. a) '32' b) 1 c) 3 d) '3null' e) 4 f) 0 g) '3undefined' h) NaN
 14. a) true b) false c) true d) false e) false f) true
-15. Both are comparisos but === looks at the two without any type conversions while == changes the types.
+15. Both are comparisons but === looks at the two without any type conversions while == changes the types.
 17. (17.)[2,4,6] will be returned. We are given the array [1,2,3] and the for loop will eventually iterate through this entire array. callback refers to the function doSomething, which multiplies the input by 2. The for-loop uses this function and pushes the result onto newArr. 1 will be multiplied and pushed, same with 2 and 3 giving us our output array, newArr.
 19. (19.)1 4 3 2 is the order that the numbers will be logged out. 
